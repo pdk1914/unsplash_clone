@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Henny+Penny&family=Island+Moments&family=Kolker+Brush&family=Merienda+One&family=Monoton&family=Poppins:wght@200;400;600&family=Rubik+Burned&family=Ubuntu&family=Xanh+Mono&display=swap');
+
+html{
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+.main {
+  /* position: relative; */
+  width: 100%;
+  min-height: 100vh;
+  /* background: url(paint-3d.jpg); */
+  /* background-position: center;
+  background-size: cover; */
+}
+.shadow {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      300deg,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(contact-final.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-div {
+  /* position: absolute; */
+  height: 80vh;
+  width: 90%;
+  margin-top: 60px;
+  /* background: rgba(17, 1, 28, 0.8); */
+  border-radius: 20px;
+  /* overflow: hidden; */
+  display: flex;
+}
+.about-div .contact-details {
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+}
+.about-div .contact-details .heading {
+  height: 20%;
+  text-align: center;
+  /* padding-top: 10px; */
+}
+.about-div .contact-details .heading h1{
+  margin-bottom: 10px;
+  font-family: 'Xanh Mono', monospace; 
+  font-size: 4rem;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(81, 66, 196, 0.8);
+}
+.about-div .contact-details .heading p{
+  font-size: 2rem;
+  color: rgb(60, 5, 63);
+  font-weight: 900;
+}
+.about-div .contact-details .menu-section {
+  /* background-color: aqua; */
+  height: 70%;
+  /* padding-left: 50px; */
+  padding-top: 20px;
+}
+.about-div .contact-details .menu-section .menu{
+  display: flex;
+  margin-bottom: 15px;
+}
+.about-div .contact-details .menu-section .menu .icon{
+  min-width: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  min-height: 50px;
+  background: rgba(137, 221, 144, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.about-div .contact-details .menu-section .menu .menu-data{
+  margin-left: 30px;
+  
+}
+.about-div .contact-details .menu-section .menu .menu-data h1{
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(63, 107, 212, 0.5);
+}
+.about-div .contact-details .menu-section .menu .menu-data p{
+  font-size: 2rem;
+  color: rgb(234, 228, 228);
+}
+.about-div .contact-details .followUS{
+  height: 25%;
+  text-align: center;
+  padding-top: 10px;  
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.about-div .contact-details .followUS h1{
+  font-family: 'Xanh Mono', monospace; 
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(212, 243, 243);
+  text-shadow: 2px 2px 4px rgb(146, 42, 184);
+  margin-bottom: 15px;
+}
+.about-div .contact-details .followUS ul{
+  display: flex;
+  list-style: none;
+  /* background-color: red; */
+}
+.about-div .contact-details .followUS ul li a{
+  font-size: 2rem;
+  /* background-color: aquamarine; */
+  margin: 0 20px;
+  color: rgb(220, 230, 31) !important;
+}
+.about-div .contact-details .followUS ul li a:hover{
+  font-size: 1.9rem;
+  color: rgb(138, 153, 9) !important;
+}
+/* .about-div .form-img img{
+  width: 250px;
+  position: fixed;
+  top: 50%;
+  left: 48%;
+  transform: translate(-45%, -50%);
+} */
+
+.about-div .contact-form {
+  /* background-color: yellow; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-div .contact-form form{
+  max-height: 90%;
+  width: 70%;
+  /* background-color: aqua; */
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgb(66, 23, 66);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.about-div .contact-form form .thank-you{
+  margin: 20px 0 30px;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(113, 102, 102);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.about-div .contact-form form .input-div{
+  margin-bottom: 30px ;
+  background: rgba(255, 255, 255, 0.798);
+  width: 90%;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(229, 34, 210);
+}
+.about-div .contact-form form .input-div input{
+  margin-left: 20px;
+  width: 75%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: rgb(23, 97, 171);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.about-div .contact-form form .input-div input::placeholder{
+  opacity: 0.5;
+}
+.about-div .contact-form form button{
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(179, 75, 154, 0.818);
+  color: rgba(4, 36, 86, 0.8);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.about-div .contact-form form button:hover{
+  font-size: 1.8rem;
+  background: rgba(179, 75, 154, 1);
+}
+/* ----------submit----------- */
+.submit{
+  /* background-color: red; */
+  background: rgba(255, 255, 255, 0.541);
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  padding: 5px 10px;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 3px black;
+  font-size: 1.5rem;
+  z-index: 1100;
+}
+.submit i{
+  cursor: pointer;
+  font-size: 2rem;
+}
+.submit i:hover{
+  font-size: 1.8rem;
+  color: rgb(82, 63, 63);
+}
+.hide-item{
+  display: none;
+}
